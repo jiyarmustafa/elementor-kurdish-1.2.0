@@ -1,0 +1,363 @@
+/* استایل‌های صفحه درباره ما */
+.elementor-kurdish-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+/* هدر صفحه */
+.elementor-kurdish-about-header {
+    margin-bottom: 40px;
+}
+
+.elementor-kurdish-about-hero {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(135deg, #93003c 0%, #800035 100%);
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.elementor-kurdish-about-logo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.elementor-kurdish-logo-fallback {
+    width: 120px;
+    height: 120px;
+    background: rgba(255,255,255,0.1);
+    border: 3px dashed rgba(255,255,255,0.3);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.elementor-kurdish-about-title h1 {
+    margin: 0 0 10px 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.elementor-kurdish-about-title .version {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.elementor-kurdish-about-title .description {
+    margin: 0;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+/* ویژگی‌ها */
+.elementor-kurdish-about-features {
+    margin-bottom: 50px;
+}
+
+.elementor-kurdish-about-features h2 {
+    text-align: center;
+    color: #2d3748;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.feature-card {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+}
+
+.feature-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    margin: 0 0 15px 0;
+    color: #2d3748;
+    font-size: 20px;
+}
+
+.feature-card p {
+    margin: 0;
+    color: #718096;
+    line-height: 1.6;
+}
+
+/* توسعه‌دهنده */
+.elementor-kurdish-about-developer {
+    margin-bottom: 50px;
+}
+
+.developer-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    border: 1px solid #e2e8f0;
+}
+
+.developer-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-fallback {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #93003c 0%, #800035 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.developer-info h3 {
+    margin: 0 0 5px 0;
+    color: #2d3748;
+    font-size: 24px;
+}
+
+.developer-title {
+    margin: 0 0 15px 0;
+    color: #93003c;
+    font-weight: bold;
+}
+
+.developer-bio {
+    margin: 0 0 20px 0;
+    color: #718096;
+    line-height: 1.6;
+}
+
+.developer-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.dev-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #f7fafc;
+    color: #4a5568;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.dev-link:hover {
+    background: #93003c;
+    color: white;
+    border-color: #93003c;
+}
+
+/* آمار */
+.elementor-kurdish-about-stats {
+    margin-bottom: 50px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.stat-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    border: 1px solid #e2e8f0;
+}
+
+.stat-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #93003c;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    color: #718096;
+    font-size: 16px;
+}
+
+/* حمایت */
+.elementor-kurdish-about-support {
+    margin-bottom: 50px;
+}
+
+.support-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+.support-card h3 {
+    margin: 0 0 20px 0;
+    color: #2d3748;
+    font-size: 24px;
+}
+
+.support-card p {
+    margin: 0 0 30px 0;
+    color: #6c757d;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.support-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.support-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.support-button.primary {
+    background: #93003c;
+    color: white;
+}
+
+.support-button.primary:hover {
+    background: #800035;
+    transform: translateY(-2px);
+}
+
+.support-button.secondary {
+    background: white;
+    color: #93003c;
+    border-color: #93003c;
+}
+
+.support-button.secondary:hover {
+    background: #93003c;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* تغییرات */
+.elementor-kurdish-about-changelog {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    border: 1px solid #e2e8f0;
+}
+
+.elementor-kurdish-about-changelog h3 {
+    margin: 0 0 25px 0;
+    color: #2d3748;
+    font-size: 24px;
+    text-align: center;
+}
+
+.changelog-version {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.changelog-version:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.changelog-version h4 {
+    margin: 0 0 15px 0;
+    color: #93003c;
+    font-size: 18px;
+}
+
+.changelog-version ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.changelog-version li {
+    margin-bottom: 8px;
+    color: #4a5568;
+    line-height: 1.5;
+}
+
+/* رسپانسیو */
+@media (max-width: 768px) {
+    .elementor-kurdish-about-hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    
+    .developer-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .support-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .support-button {
+        width: 200px;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

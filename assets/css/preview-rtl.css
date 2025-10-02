@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Kurdistan24';
+    src: url(font/kurdistan24/kurdistan24-regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* کاربرد فونت کُردی برای عنوان‌های المنتور */
+.elementor-sortable-helper .title,
+.elementor-add-section-drag-title,
+.elementor-select-preset-title,
+.elementor-document-handle__title,
+.e-con-select-type__title,
+.e-con-select-preset__title {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif !important;
+}
+
+/* استایل‌های پیش‌نمایش RTL */
+.elementor-editor-preview .elementor-section,
+.elementor-editor-preview .elementor-column,
+.elementor-editor-preview .elementor-widget {
+    direction: rtl;
+}
+
+.elementor-editor-preview .elementor-document-handle {
+    text-align: right;
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-editor-preview .elementor-add-section-drag-title {
+    direction: rtl;
+}
+
+.elementor-editor-preview .elementor-add-section-area-button {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* هندل‌های درگ و دراپ */
+.elementor-editor-preview .elementor-editor-element-edit,
+.elementor-editor-preview .elementor-editor-element-settings {
+    left: auto;
+    right: 0;
+}

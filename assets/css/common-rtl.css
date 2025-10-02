@@ -1,0 +1,158 @@
+/* استایل‌های عمومی RTL برای ئێلێمنتۆری کوردی */
+@font-face {
+  font-family: 'Kurdistan24';
+  src: url('../fonts/kurdistan24-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* کاربرد فونت کُردی در رابط المنتور */
+.elementor-templates-modal .dialog-widget-content,
+#elementor-new-template__form__submit,
+.eps-app,
+.elementor-loading-title,
+#e-admin-top-bar-root .e-admin-top-bar,
+.e-landing-pages-empty h3,
+.e-landing-pages-empty p,
+a#elementor-template-library-add-new {
+  font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif !important;
+}
+
+/* تنظیمات عمومی RTL */
+.elementor-editor-direction-rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+/* پنل کنترل‌ها */
+.elementor-controls-stack .elementor-control {
+  text-align: right;
+}
+
+.elementor-control-field {
+  flex-direction: row-reverse;
+}
+
+.elementor-control-title {
+  text-align: right;
+  font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-control-input-wrapper {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+/* تب‌ها */
+.elementor-tab-control {
+  text-align: center;
+  font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-panel-navigation .elementor-panel-navigation-tab {
+  border-left: 1px solid #d5dadf;
+  border-right: none;
+}
+
+.elementor-panel-navigation .elementor-panel-navigation-tab:first-child {
+  border-left: none;
+}
+
+/* منوها */
+.elementor-context-menu {
+  text-align: right;
+  direction: rtl;
+  font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-context-menu-list__item {
+  text-align: right;
+  padding: 10px 20px 10px 10px;
+}
+
+/* ویجت‌ها */
+.elementor-element .icon {
+  transform: scaleX(-1);
+}
+
+.elementor-widget-container {
+  text-align: right;
+}
+
+/* جستجو در المنتور */
+input#elementor-panel-elements-search-input {
+  font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+/* هشدارها */
+.elementor-panel .elementor-panel-alert {
+  border-right: 5px solid transparent;
+  border-left: 0 solid transparent !important;
+  font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* کنترل همترازی */
+.elementor-control-align .elementor-choices {
+  flex-direction: row-reverse;
+}
+
+.elementor-control-align label.elementor-choices-label.elementor-control-unit-1.tooltip-target {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 0px;
+}
+
+.elementor-control-align .elementor-choices .elementor-choices-label:last-child {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 0px;
+  border-top-right-radius: var(--e-a-border-radius);
+  border-bottom-right-radius: var(--e-a-border-radius);
+}
+
+.elementor-control-align .elementor-choices .elementor-choices-label:nth-child(2) {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: var(--e-a-border-radius) !important;
+  border-bottom-left-radius: var(--e-a-border-radius) !important;
+  border-left: 1px solid var(--e-a-border-color-bold) !important;
+}
+
+/* کنترل URL */
+.elementor-control-type-url .elementor-control-url-autocomplete-spinner {
+  right: auto;
+  left: 0;
+}
+
+/* کیبورد شورتکات */
+.elementor-hotkeys__item--shortcut {
+  direction: ltr;
+}
+
+.elementor-hotkeys__item--shortcut kbd:not(:last-of-type):after {
+  right: 0;
+  left: auto !important;
+}
+
+/* کتابخانه تمپلیت */
+#elementor-template-library-filter .select2-selection__rendered,
+#select2-elementor-template-library-filter-subtype-results .select2-results__option {
+  text-align: right;
+  font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* حالت امن */
+#elementor-try-safe-mode .elementor-safe-mode-button {
+  font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+  font-size: 10px;
+}
+
+/* دیالوگ‌ها */
+button.dialog-button.dialog-cancel.dialog-confirm-cancel,
+button.dialog-button.dialog-ok.dialog-confirm-ok {
+  font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+  font-size: 13px;
+}

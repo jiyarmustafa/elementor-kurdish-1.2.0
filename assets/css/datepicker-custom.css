@@ -1,0 +1,74 @@
+/* فونت کُردی Kurdistan 24 */
+@font-face {
+    font-family: 'Kurdistan24';
+    src: url('../fonts/kurdistan24-regular.woff2') format('woff2'),
+         url('../fonts/kurdistan24-regular.woff') format('woff'),
+         url('../fonts/kurdistan24-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* استایل اصلی تقویم */
+jdp-container {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+/* فیلدهای ورودی */
+jdp-container .jdp-year,
+jdp-container .jdp-month,
+jdp-container .jdp-time {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+    direction: rtl;
+}
+
+/* روزها */
+jdp-container .jdp-day,
+jdp-container .jdp-day-name {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* فوتر */
+jdp-container .jdp-btn-today,
+jdp-container .jdp-btn-empty,
+jdp-container .jdp-btn-close {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* فیلد ورودی در فرم */
+.kurdish-date-input {
+    direction: rtl;
+    text-align: right;
+    font-family: "Kurdistan24", "Unikurd Goran", Tahoma, sans-serif;
+    padding: 8px 12px;
+    border: 1px solid #d5dadf;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.kurdish-date-input:focus {
+    border-color: #5b9dd9;
+    box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+    outline: none;
+}
+
+/* ظاهر تقویم در حالت RTL */
+.jdp-container {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.jdp-header {
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.jdp-footer {
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}

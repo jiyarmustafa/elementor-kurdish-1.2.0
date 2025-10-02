@@ -1,0 +1,93 @@
+/* فونت‌های کردی برای ئێلێمنتۆری کوردی */
+@font-face {
+    font-family: 'Kurdistan24';
+    src: url('../fonts/kurdistan24-regular.woff2') format('woff2'),
+         url('../fonts/kurdistan24-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kurdistan24';
+    src: url('../fonts/kurdistan24-bold.woff2') format('woff2'),
+         url('../fonts/kurdistan24-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unikurd Goran';
+    src: url('../fonts/unikurd-goran.woff2') format('woff2'),
+         url('../fonts/unikurd-goran.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rudaw';
+    src: url('../fonts/rudaw.woff2') format('woff2'),
+         url('../fonts/rudaw.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rudaw';
+    src: url('../fonts/rudaw-bold.woff2') format('woff2'),
+         url('../fonts/rudaw-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shasenem';
+    src: url('../fonts/shasenem.woff2') format('woff2'),
+         url('../fonts/shasenem.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* اعمال فونت‌های کردی در المنتور */
+.elementor-control-typography_font_family select,
+.elementor-control-text_typography_font_family select,
+.elementor-control-title_typography_font_family select,
+.elementor-control-font_family select {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* استایل گزینه‌های فونت در dropdown */
+.elementor-control-typography_font_family select option[value*="Kurdistan24"],
+.elementor-control-typography_font_family select option[value*="Unikurd"],
+.elementor-control-typography_font_family select option[value*="Rudaw"],
+.elementor-control-typography_font_family select option[value*="Shasenem"] {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+    direction: rtl;
+}
+
+/* پیشنمایش فونت در کنترل تایپوگرافی */
+.elementor-typography-style-font_family .elementor-control-popover-toggle-toggle-label {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* فونت برای متن‌های کردی در ویرایشگر */
+.elementor-element .elementor-widget-container,
+.elementor-element .elementor-heading-title,
+.elementor-element .elementor-icon-box-title,
+.elementor-element .elementor-icon-box-description {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* فونت برای رابط کاربری المنتور */
+.elementor-panel-heading-title,
+.elementor-control-title,
+.elementor-button,
+.elementor-tab-control,
+.elementor-context-menu-list__item__title {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}

@@ -1,0 +1,41 @@
+/**
+ * استایل‌های مخصوص منوی ئێلێمنتۆری کوردی
+ */
+ #adminmenu .toplevel_page_elementor-kurdish .wp-menu-image img {
+    width: 35px !important;
+    height: 35px !important;
+    padding: 0px !important;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+#adminmenu .toplevel_page_elementor-kurdish:hover .wp-menu-image img {
+    transform: scale(1.1);
+}
+
+#adminmenu .toplevel_page_elementor-kurdish.current .wp-menu-image img,
+#adminmenu .toplevel_page_elementor-kurdish.wp-has-current-submenu .wp-menu-image img {
+    background: rgba(255,255,255,0.1);
+    border-radius: 3px;
+}
+
+/* برای حالت dashicons */
+#adminmenu .toplevel_page_elementor-kurdish .dashicons-translation:before {
+    font-size: 18px;
+    margin-top: 2px;
+    display: block;
+}
+
+/* responsive */
+@media only screen and (max-width: 960px) {
+    #adminmenu .toplevel_page_elementor-kurdish .wp-menu-image img {
+        width: 14px !important;
+        height: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    #adminmenu .toplevel_page_elementor-kurdish .wp-menu-name {
+        font-family: 'Kurdistan24', Tahoma, sans-serif;
+    }
+}

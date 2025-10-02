@@ -1,0 +1,128 @@
+/* استایل‌های جامع برای تقویم کردی در المنتور */
+.kurdish-date-input,
+.elementor-field-type-date input[type="text"],
+.elementor-field-type-date input[type="date"],
+.elementor-date-field,
+input[data-type="date"] {
+    direction: rtl;
+    text-align: right;
+    font-family: "Kurdistan24", "Unikurd Goran", Tahoma, sans-serif;
+    padding: 8px 12px;
+    border: 1px solid #d5dadf;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.kurdish-date-input:focus,
+.elementor-field-type-date input[type="text"]:focus,
+.elementor-field-type-date input[type="date"]:focus,
+.elementor-date-field:focus,
+input[data-type="date"]:focus {
+    border-color: #5b9dd9;
+    box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+    outline: none;
+}
+
+/* پوپ‌آپ تقویم در المنتور */
+.jdp-container {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif !important;
+    direction: rtl !important;
+    text-align: right !important;
+    z-index: 999999 !important;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+/* هدر تقویم */
+.jdp-header {
+    background: #f8f9fa !important;
+    border-bottom: 1px solid #e9ecef !important;
+    padding: 10px;
+}
+
+.jdp-year, .jdp-month {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif !important;
+    direction: rtl !important;
+}
+
+/* روزهای تقویم */
+.jdp-day {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif !important;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.jdp-day:hover {
+    background: #e9ecef !important;
+}
+
+.jdp-day.selected {
+    background: #93003c !important;
+    color: white !important;
+}
+
+.jdp-day.today {
+    border: 2px solid #93003c !important;
+    color: #93003c !important;
+}
+
+.jdp-day-name {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif !important;
+    color: #666;
+    font-weight: bold;
+}
+
+/* فوتر تقویم */
+.jdp-footer {
+    background: #f8f9fa !important;
+    border-top: 1px solid #e9ecef !important;
+    padding: 10px;
+}
+
+.jdp-btn-today,
+.jdp-btn-empty,
+.jdp-btn-close {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif !important;
+    background: #93003c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.jdp-btn-today:hover,
+.jdp-btn-empty:hover,
+.jdp-btn-close:hover {
+    background: #800035;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .jdp-container {
+        width: 300px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+}
+
+/* حالت‌های مختلف المنتور */
+.elementor-editor-active .jdp-container {
+    z-index: 1000000 !important;
+}
+
+.elementor-popup-modal .jdp-container {
+    z-index: 100000 !important;
+}
+
+/* تطبیق با تم‌های مختلف */
+.elementor-widget-form .kurdish-date-input,
+.elementor-widget-form .elementor-field-type-date input {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,136 @@
+/* استایل‌های RTL برای بخش کاربری ئێلێمنتۆری کوردی */
+.elementor-section .elementor-container {
+    direction: rtl;
+}
+
+.elementor-widget-wrap {
+    text-align: right;
+}
+
+.elementor-button {
+    direction: rtl;
+}
+
+.elementor-heading-title {
+    text-align: right;
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-text-editor {
+    text-align: right;
+    direction: rtl;
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* فرم‌ها */
+.elementor-field-group {
+    text-align: right;
+}
+
+.elementor-field-label {
+    text-align: right;
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-field-type-date input {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* منوهای ناوبری */
+.elementor-nav-menu {
+    text-align: right;
+    direction: rtl;
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-nav-menu--main .elementor-item {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* اسلایدرها */
+.elementor-swiper-button-prev {
+    right: 10px;
+    left: auto;
+}
+
+.elementor-swiper-button-next {
+    left: 10px;
+    right: auto;
+}
+
+/* کاروسل */
+.elementor-testimonial__content {
+    text-align: right;
+    direction: rtl;
+}
+
+.elementor-testimonial__cite {
+    text-align: right;
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* آیکون باکس */
+.elementor-icon-box-title {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-icon-box-description {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* دکمه‌ها */
+.elementor-button-text {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* آکاردئون */
+.elementor-accordion-title {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-accordion-content {
+    direction: rtl;
+    text-align: right;
+}
+
+/* تب‌ها */
+.elementor-tab-title {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-tab-content {
+    direction: rtl;
+    text-align: right;
+}
+
+/* پست‌ها */
+.elementor-post__title {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-post__excerpt {
+    direction: rtl;
+    text-align: right;
+}
+
+/* سرتیپ‌ها */
+.elementor-alert-description {
+    direction: rtl;
+    text-align: right;
+}
+
+/* شمارنده */
+.elementor-counter-number {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+.elementor-counter-title {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
+
+/* فونت برای تمام متن‌های المنتور */
+.elementor-widget-container,
+.elementor-widget-heading,
+.elementor-widget-text-editor {
+    font-family: 'Kurdistan24', 'Unikurd Goran', Tahoma, sans-serif;
+}
